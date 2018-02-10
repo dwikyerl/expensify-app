@@ -6,7 +6,7 @@ const javascript = {
   use: [{
     loader: 'babel-loader',
     options: { 
-      presets: ['env', 'react'],
+      presets: ['env', 'react', "stage-0"],
       plugins: ['transform-class-properties', 'transform-object-rest-spread']
     }
   }],
